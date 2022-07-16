@@ -30,7 +30,7 @@ clone : 다운로드
 
 pull : 업데이트
 
-git clone
+git clone github에 업로드한 파일을 복제하는거 (다운로드)
 
 	1. 폴더생성
 	2. git init
@@ -38,3 +38,5 @@ git clone
 	4. 버전, 파일 생성
 
 컴퓨터를 다른 곳에서 할려면 자격증명을 다시해야된다.
+
+git pull github에 업로드한 파일을 가져오는 거 (업로드)
