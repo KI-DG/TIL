@@ -1,4 +1,4 @@
-# Day 02
+# DAY02
 
 git 안에 git이 있으면 안된다. master가 있으면 git init(폴더) 하면 안된다.
 

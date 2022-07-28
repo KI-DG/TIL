@@ -1,4 +1,4 @@
-# DAY 09
+# DAY09
 
 
 
@@ -269,13 +269,13 @@ public Member
 - 어디서나 호출이 가능, 하위 클래스 override 허용
 - 일반적으로 작성되는 메서드와 속성의 대다수를 차지
 
-proctected Member
+proctected Member (느슨하다)
 
 - 언더바 1개로 시작하는 메서드나 속성
 - 암묵적 규칙에 의해 부모 클래스 내부와 자식 클래스에서만 호출 가능
 - 하위클래스 override 허용
 
-private Member
+private Member (강하게 잡아준다)
 
 - 언더바 2개로 시작하는 메서드나 속성
 - 본 클래스 내부에서만 사용이 가능
@@ -289,6 +289,31 @@ getter 메서드와 setter 메서드
     - @property 데코레이터 사용
   - setter 메서드 : 변수의 값을 설정하는 성격의 메서드
     - @변수.setter 사용
+
+```python
+Class Person:
+    count = 0
+    
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+	def get_age(self):    #getter
+		return self.__age
+
+    def set_age(self):
+        self.__age = age
+        
+person1 = Person('이기용',30) #setter
+print(person1.get_age())
+
+person1.set_age(30)
+print(person1.get_age())
+
+객체 메시지를 보낸다.
+```
+
+
 
 
 
