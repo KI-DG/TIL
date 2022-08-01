@@ -73,7 +73,7 @@
 
 ```python
 if 조건:
-    if whrjs:
+    if 조건:
 else:
     
 ```
