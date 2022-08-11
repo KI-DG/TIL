@@ -23,8 +23,7 @@ for tc in range(1, t + 1):
             result_a.append(ai[-1 * (x // 2) - 1])
         # 인덱스 짝수인 상태
 
-    print(f"#{tc}", end=" ")
-    print(*result_a)
+    print(f"#{tc}", *result_a)
 
 
 

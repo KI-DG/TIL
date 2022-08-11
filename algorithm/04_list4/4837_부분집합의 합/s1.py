@@ -7,8 +7,8 @@ t = int(input())
 for tc in range(1, t + 1):
     n, k = map(int, input().split())
 
-    a = [int(i) for i in range(1, 13)]  # a집합의 수 *a 집합의 설정을 잘못하였다.
-
+    # a = [int(i) for i in range(1, 13)]  # a집합의 수 *a 집합의 설정을 잘못하였다.
+    a = list(range(1, 13))
     result = 0
 
     for i in range(1 << len(a)):  # 부분집합의 개수

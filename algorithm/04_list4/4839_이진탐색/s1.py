@@ -42,3 +42,16 @@ for tc in range(1, t+1):
         print(f"#{tc} B")
     else:
         print(f"#{tc} 0")
+
+# def binar_search(front_page, last_page, find_page, cnt):
+#     start = front_page
+#     end = last_page
+#     cnt += 1
+#
+#     center = (start + end)/2
+#     if center == find_page:
+#         return cnt
+#     elif center > find_page:
+#         return binar_search(start, center, find_page, cnt)
+#     else:
+#         return binar_search(center, end, find_page, cnt)
