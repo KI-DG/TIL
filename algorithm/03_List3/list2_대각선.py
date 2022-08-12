@@ -15,7 +15,7 @@ for i in range(N):
 
 s = 0
 for i in range(N):
-    s += arr[i][N-1-i]
+    s += arr[i][N - 1 - i]
 
 # 대각선 양쪽합
 N = int(input())
@@ -32,6 +32,6 @@ for i in range(N):
 #
 s1 = s2 = 0
 for i in range(N):
-    for j in range(i+1, N):
+    for j in range(i + 1, N):
         s2 += arr[i][j]
         s1 += arr[j][i]
