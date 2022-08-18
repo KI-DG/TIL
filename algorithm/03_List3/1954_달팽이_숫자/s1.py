@@ -3,24 +3,24 @@ import sys
 sys.stdin = open("input.txt")
 
 t = int(input())
+
+dx = [0, 1, 0, -1]  # 우하좌상
+dy = [1, 0, -1, 0]
+
 for tc in range(1, t+1):
     n = int(input())
 
     arr = [[0] * n for _ in range(n)]
-    x, y = 0, 0  # 출발위치 *
-    direction = 0  #처음 출발 방향 오른쪽*
-
-    dx = [0, 1, 0, -1]   # 우하좌상
-    dy = [1, 0, -1, 0]
+    x, y = 0, 0     # 출발위치 *
+    direction = 0   # 처음 출발 방향 오른쪽*
 
     for i in range(1, n * n + 1):   # *
         arr[x][y] = i
         # 다음 위치 이동
         nx = x + dx[direction]
         ny = y + dy[direction]
-
         # 범위안에 있어? 이미 숫자 없어?
-        if 0 <= nx < n and 0 <= ny < n and arr[nx][ny] == 0: # *
+        if 0 <= nx < n and 0 <= ny < n and arr[nx][ny] == 0:
             x = nx
             y = ny  # 여기로 이동하자
         else:

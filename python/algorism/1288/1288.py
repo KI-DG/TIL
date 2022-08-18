@@ -10,7 +10,7 @@ for tc in range(1, t + 1):
     value = int(n)
     data = [0]*10   # [0] 0~9가 들어갈 리스트를 만들어준다.
     while True:     # while문으로 숫자가 다나올 때까지 만들어준다.
-        for i in range(len(n)):
+        for i in range(len(n)):  # 문자열이라 len을 써줘서 하나씩 빼게 해주었다.
             data[int(n[i])] += 1
         if not data.count(0):   # 0이 없으면 다 있는 거이기 때문에 조건문을 만들어 준다.
             print(f"#{tc} {int(n)}")
