@@ -11,8 +11,16 @@ for tc in range(1, t+1):
     n = int(input())
 
     arr = [[0] * n for _ in range(n)]
+<<<<<<< HEAD
     x, y = 0, 0     # 출발위치 *
     direction = 0   # 처음 출발 방향 오른쪽*
+=======
+    x, y = 0, 0  # 출발위치 *
+    direction = 0  # 처음 출발 방향 오른쪽*
+
+    dx = [0, 1, 0, -1]   # 우하좌상
+    dy = [1, 0, -1, 0]
+>>>>>>> c960c33239d7c81e4a9f9591707c230065e31822
 
     for i in range(1, n * n + 1):   # *
         arr[x][y] = i
