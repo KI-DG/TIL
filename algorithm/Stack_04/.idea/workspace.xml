@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9ab5f63-8484-486e-b8e6-20962708e792" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../01_List1/01_Gravity/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_List1/01_Gravity/output.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_List1/01_Gravity/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_List1/02_Baby_gin/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_List1/02_Baby_gin/output.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_List1/02_Baby_gin/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_List1/03_1206_View/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_List1/03_1206_View/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_List1/03_1206_View/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Stack/fibo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Stack/fibo_dp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Stack/stack.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Stack/stack1_facto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Stack/stack_fibo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Stack/파스칼의 정리/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Stack/파스칼의 정리/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Stack/파스칼의 정리/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_Stack/파스칼의 정리/s2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/GNS/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/GNS/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/GNS/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/GNS/s2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/GNS/s3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/string/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/string/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/string/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/고대유적/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/고대유적/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/새로운_버스노선/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/새로운_버스노선/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/연속한_1의_개수/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/연속한_1의_개수/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/유학금지.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/점점_커지는_당근의_개수/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/점점_커지는_당근의_개수/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/카카오.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/크로아티아 알파벳.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/태보태보_총난타.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/파리퇴치3/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_string/파리퇴치3/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_List2/1208_flatten/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_List2/1208_flatten/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_List2/1208_flatten/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_List2/4828_min_max/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_List2/4828_min_max/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_List2/4828_min_max/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_List2/4831_electric_bus/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_List2/4831_electric_bus/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_List2/4831_electric_bus/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_List2/4834_cards/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_List2/4834_cards/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_List2/4834_cards/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_List2/4835_sumofintervals/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_List2/4835_sumofintervals/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_List2/4835_sumofintervals/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/1219_길찾기/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/1219_길찾기/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/1219_길찾기/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/1234_비밀번호/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/1234_비밀번호/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/1234_비밀번호/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/4869_종이붙이기/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/4869_종이붙이기/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/4869_종이붙이기/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/4871_그래프 경로/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/4871_그래프 경로/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/4871_그래프 경로/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/4871_그래프 경로/s2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/4873_반복문자 지우기/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/4873_반복문자 지우기/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/4873_반복문자 지우기/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/4886_괄호검사/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/4886_괄호검사/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/4886_괄호검사/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../02_Stack/4886_괄호검사/s1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/DFS 재귀.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/DFS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/fibo_01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/stack01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_Stack/바이러스.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_string/1216 회문 2/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_string/1216 회문 2/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_string/1216 회문 2/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_string/3143 가장_빠른_문자열_타이핑/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_string/3143 가장_빠른_문자열_타이핑/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_string/3143 가장_빠른_문자열_타이핑/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_string/4861 회문/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_string/4861 회문/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_string/4861 회문/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_string/4864 문자열 비교/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_string/4864 문자열 비교/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_string/4864 문자열 비교/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_string/4865 글자수/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_string/4865 글자수/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_string/4865 글자수/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/.idea/03_List3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/1209_Sum/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/1209_Sum/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/1209_Sum/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/1954_달팽이_숫자/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/1954_달팽이_숫자/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/1954_달팽이_숫자/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/9386/9386.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/9386/input1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/9386/output1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/delta.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/list2_ex1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/list2_대각선.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/list2_사선의합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/list2_최대행의합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/델타검색/input.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/델타검색/output.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/델타검색/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/부분집합의 합/input.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/부분집합의 합/output.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/부분집합의 합/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_List3/선택정렬.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_list4/1210_Ladder1/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_list4/1210_Ladder1/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_list4/1210_Ladder1/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_list4/4836_색칠하기/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_list4/4836_색칠하기/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_list4/4836_색칠하기/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_list4/4837_부분집합의 합/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_list4/4837_부분집합의 합/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_list4/4837_부분집합의 합/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_list4/4839_이진탐색/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_list4/4839_이진탐색/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_list4/4839_이진탐색/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_list4/4842_특별한 정렬/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_list4/4842_특별한 정렬/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_list4/4842_특별한 정렬/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_list4/이진탐색/input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python/algorism/1948/1948.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../python/algorism/1948/1948.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2DiO550NWN0PeP39qEELE7JB6rp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Stack_04" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9ab5f63-8484-486e-b8e6-20962708e792" name="Default Changelist" comment="" />
+      <created>1661178254316</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661178254316</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
