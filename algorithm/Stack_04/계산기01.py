@@ -6,9 +6,13 @@ t = int(input())
 
 for tc in range(1, t + 1):
     word = input()
-    result = 0
     stack = []
-
+    # calculator = {
+    #     '+': lambda x, y: x + y,
+    #     '-': lambda x, y: x - y,
+    #     '*': lambda x, y: x * y,
+    #     '/': lambda x, y: x / y
+    # } 람다 함수를 이용해서 할 수도 있다.
     for char in word:
         # 1) 피연사자를 만나면 스택에 push 한다.
         if char not in '*/+-':
@@ -19,6 +23,7 @@ for tc in range(1, t + 1):
         else:
             x = stack.pop()
             y = stack.pop()
+            # stack.append(calculator[char](y,x))
             if char == '+':
                 stack.append(y + x)
             elif char == '-':
