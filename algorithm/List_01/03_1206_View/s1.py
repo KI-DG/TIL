@@ -4,7 +4,7 @@ sys.stdin = open("input.txt")
 
     # 테스트를 가져온다.
 
-for tc in range(1,11):  # 테스트 케이스를 가져와 반복문으로 풀어준다.
+for tc in range(1, 11):  # 테스트 케이스를 가져와 반복문으로 풀어준다.
     N = int(input())
     height_list = list(map(int, input().split()))
     height_sum = 0   # 조망권의 합을 담는 변수

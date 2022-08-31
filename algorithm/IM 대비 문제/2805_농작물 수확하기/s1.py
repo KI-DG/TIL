@@ -6,7 +6,7 @@ t = int(input())
 
 for tc in range(1, t + 1):
     n = int(input())   # 농장의 크기
-    farm = [list(map(int, input())) for _ in  range(n)]
+    farm = [list(map(int, input())) for _ in range(n)]
     farm_sum = 0
 
     s, e = n // 2, n // 2

@@ -6,7 +6,7 @@ sys.stdin = open("input.txt")
 
 t = int(input())
 
-for tc in range(1,t+1):
+for tc in range(1, t+1):
     n = int(input())
     arr = list(map(int, input()))
 
@@ -23,4 +23,3 @@ for tc in range(1,t+1):
     print(f'#{tc} {maxV}')
     # for i in range(n):
     #     arr[i] = arr[i-1]*arr[i] + arr[i]
-    #
