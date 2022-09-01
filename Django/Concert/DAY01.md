@@ -100,7 +100,7 @@
 
 #### 사용 방법
 
-1. (venv의 환경을 만들어 준다.) - venv (가상 환경)
+1. venv의 환경을 만들어 준다. - venv (가상 환경)
    - python -m venv venv 
 
 2. venv를 활성화 시켜 준다. 
