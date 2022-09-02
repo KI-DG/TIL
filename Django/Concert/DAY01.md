@@ -124,7 +124,7 @@
 
 6. requirements.txt 생성
 
-   - pip freeze>requirements.txt 
+   - pip freeze > requirements.txt 
 
    1. 하는 이유 (용량이 크다.) - venv는 로컬에서만 사용 // github에 올리지 말자!
       1. 가상 환경에 들어갈 패키지 목록을 저장하는 역할 
@@ -132,7 +132,7 @@
    2. 사용 방법
       1. python -m venv venv
       2. source venv/Scripts/activate
-      3. pip install - r requirements.txt
+      3. pip install -r requirements.txt
       4. 만약 다른 것을 더 설치 하였으면 pip freeze>requirements.txt 명령어를 입력해서 덮어써 준다
 
 7. django 프로젝트 생성
