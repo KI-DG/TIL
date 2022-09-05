@@ -1,25 +1,19 @@
-import sys
+def solution(record):
+    answer = []
+    dic = {}
 
-sys.stdin = open('input')
+    for i in record:
+        i = i.split()
+        if i[0] == 'Enter' or i[0] == 'Change':
+            dic[i[1]] = i[2]
 
-n = input().replace('"', '')
+    for i in record:
+        i = i.split()
+        if i[0] == 'Enter':
+            answer.append(f"{dic[i[1]]}님이 들어왔습니다.")
+        elif i[0] == 'Leave':
+            answer.append(f"{dic[i[1]]}님이 나갔습니다.")
 
-x = n.split(',')
-
-for i in range(len(x)):
-    y = x[i]
-    z = y.split()
-    print(z)
-    z_dict = {z[1]: z[2]}
-    print(z_dict)
-
-    if 'Enter' in z:
-        print(f'"{z[2]}님이 들어왔습니다."')
-    elif 'Change' in z:
-        print(f'"{z[2]}님이 들어왔습니다."')
-
-
-
-
+    return answer
 
 
