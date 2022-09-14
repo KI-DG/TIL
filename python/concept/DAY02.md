@@ -6,17 +6,17 @@
 - 조건문 
   
   - 조건문은 참/거짓을 판단하는 조건식과 함께사용
-  
   - 조건이 잠인 경우 이후 들여쓰기 되어있는 코드 블록을 실행
-  - 특정상황에서 사용하고 싶을 때 사용
-    
-    ```python
-    if 조건 == True:
-      
-    else:
-    
-    *실습*
-    num = int(input()) #input()은 문자열이기 떄문에 int()로 정수로 변환
+  - 특정 상황에서 사용하고 싶을 때 사용
+
+```python
+if 조건 == True:
+  
+else:
+
+*실습*
+num = int(input()) #input()은 문자열이기 떄문에 int()로 정수로 변환
+```
 
 
 - 복수 조건문
@@ -96,7 +96,7 @@ print(value) #0
   - code for 변수 in iterable
   - code for 변수 in iterable if 조건식
 
-##### 반복제어
+##### 반복 제어
 
 - break, continue, for-else
 쿠키런에서 item
