@@ -22,17 +22,31 @@
 
 
 # [입력]
+import sys
+
+sys.stdin = open("input.txt")
 
 # 가장 첫 줄에는 테스트 케이스의 개수 T가 주어지고, 그 아래로 각 테스트 케이스가 주어진다.
 t = int(input())
 # 각 테스트 케이스의 첫 번째 줄에 N 과 M 이 주어지고,
 
 # 두 번째 줄에는 Ai,
-for i in range(1, t + 1):
-    n = list(map(int, input().split()))
-    m = list(map(int, input().split()))
+for tc in range(1, t + 1):
+    n, m = map(int, input().split())
+    a1 = list(map(int, input().split()))
+    b1 = list(map(int, input().split()))
 
-
+    max_result = -999999
+    if n < m:
+        n, m = m, n
+        a1, b1 = b1, a1
+    for i in range(n - m + 1):
+        result = 0
+        for j in range(m):
+            result += a1[i + j] * b1[j]
+        if max_result < result:
+            max_result = result
+    print(f'#{tc} {max_result}')
 # 세 번째 줄에는 Bj 가 주어진다.
 
 # [출력]
