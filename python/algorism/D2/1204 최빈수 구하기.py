@@ -17,24 +17,24 @@
 # [입력]
 
 # 첫 번째 줄에 테스트 케이스의 수 T가 주어진다.
-T = int(input()) 
+t = int(input())
 # 각 테스트 케이스의 첫 줄에는 테스트 케이스의 번호가 주어지고 그 다음 줄부터는 점수가 주어진다.
 # 1. 각 테스트 케이스마다 테스트 케이스의 번호를 입력받고 1000개의 점수를 입력받아 리스트 형태로 구성한다.
-for tc in range(T):
+for tc in range(1, t + 1):
     tc = int(input())
-    score = list(map(int,input().split()))
+    score = list(map(int, input().split()))
     data = [0]*1001
 # 2. 0이 1001개 담겨 있는 data 리스트를 정의하고 반복문을 통해 score의 값을 하나씩 확인하여 그 값을 인덱스로 하여 data리스트의 해당 인덱스 값을 1씩 증가시킨다.
     for i in score:
         data[i] += 1
 # 3. 반복 작업을 마치면 data 리스트 내 값들 중 최대 값을 구하여 max_value에 할당하고 여러 개의 최빈 값을 담기 위한 result 리스트를 정의한다.
     max_value = max(data)
-    result =[]
+    result = []
     for i in range(len(data)):
-        if data[i]== max_value:
+        if data[i] == max_value:
             result.append(i)
 # 4. 반복문을 통해 data 리스트의 요소를 하나씩 확인하여 그 값이 max_value와 같다면 result에 추가한다.
-    print('#d% %d' % (tc,max(result)))
+    print(f'#{tc} {max(result)}')
     # 두개의 정수를 출력하세요.
 # 5. 반복 작업을 마치면 최종적으로 입력받은 테스트 케이스 번호(tc)와 함께 result 리스트 내 값들 중 최대 값을 출력한다.
 # [출력]

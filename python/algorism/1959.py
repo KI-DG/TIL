@@ -24,13 +24,15 @@
 # [입력]
 
 # 가장 첫 줄에는 테스트 케이스의 개수 T가 주어지고, 그 아래로 각 테스트 케이스가 주어진다.
-T = int(input())
+t = int(input())
 # 각 테스트 케이스의 첫 번째 줄에 N 과 M 이 주어지고,
 
 # 두 번째 줄에는 Ai,
-for i in range(1,T+1):
-    N ,M = map(int,input().split)
-    
+for i in range(1, t + 1):
+    n = list(map(int, input().split()))
+    m = list(map(int, input().split()))
+
+
 # 세 번째 줄에는 Bj 가 주어진다.
 
 # [출력]

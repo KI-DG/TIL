@@ -1,0 +1,14 @@
+t = int(input())
+
+for tc in range(1, t + 1):
+    data = list(map(int, input().split()))
+    average = round(sum(data)//len(data))
+
+    print(f'#{tc} {average}')
+
+
+
+# 3
+# 3 17 1 39 8 41 2 32 99 2
+# 22 8 5 123 7 2 63 7 3 46
+# 6 63 2 3 58 76 21 33 8 1
