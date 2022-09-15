@@ -7,16 +7,23 @@ def in_order(node):
     global answer
     if node <= n:
         in_order(node * 2)
-        answer.append(tree[node])
+        if tree[node] == '+':
+            answer += node
+        elif tree[node] == '-':
+            answer -= node
+        # elif tree[node] == '*':
+        #     answer *= node
+        # else:
+        #     answer /= node
         in_order(node * 2 + 1)
 
 
-t = 10
+t = 1
 
 for tc in range(1, t + 1):
     n = int(input())
     tree = [''] * (n + 1)
-    answer = []
+    answer = 0
     for i in range(n):
         data = list(input().split())
         if len(data) == 2:
