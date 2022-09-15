@@ -63,9 +63,10 @@ for i in range(E):
         ch2[p] = c   # 자식 2로 저장
     par[c] = p
 root = find_root(V)
-print(root)
+# print(root)
 # print(ch1, ch2)
 # preorder(root)
 # inorder(root)
 # postorder(root)
-print(f(root))
+print(inorder(root))
+
