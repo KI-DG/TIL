@@ -14,6 +14,7 @@ def room(r, c):
             nj = j + dy[k]
             if 0 <= ni < n and 0 <= nj < n and arr[ni][nj] - arr[i][j] == 1:  # 범위 안에 있다
                 cnt += 1
+                r, c = ni, nj
                 cnt_list.append(cnt)
 
     return cnt
