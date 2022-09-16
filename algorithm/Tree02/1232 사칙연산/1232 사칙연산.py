@@ -3,33 +3,46 @@ import sys
 sys.stdin = open('input.txt')
 
 
+# calculator ={
+#     '+': lambda x, y: x + y,
+#     '-': lambda x, y: x - y,
+#     '*': lambda x, y: x * y,
+#     '/': lambda x, y: x / y,
+# }
+
+
 def in_order(node):
-    global answer
-    if node <= n:
-        in_order(node * 2)
-        if tree[node] == '+':
-            answer += node
-        elif tree[node] == '-':
-            answer -= node
-        # elif tree[node] == '*':
-        #     answer *= node
-        # else:
-        #     answer /= node
-        in_order(node * 2 + 1)
+
+    if node:
+        in_order(ch1[node])
+        in_order(ch2[node])
+        if tree[node] == '-':
+            tree[node] = str(int(tree[ch1[node]]) - int(tree[ch2[node]]))
+        elif tree[node] == '+':
+            tree[node] = str(int(tree[ch1[node]]) + int(tree[ch2[node]]))
+        elif tree[node] == '*':
+            tree[node] = str(int(tree[ch1[node]]) * int(tree[ch2[node]]))
+        elif tree[node] == '/':
+            tree[node] = str(int(tree[ch1[node]]) / int(tree[ch2[node]]))
 
 
-t = 1
+t = 10
 
 for tc in range(1, t + 1):
     n = int(input())
     tree = [''] * (n + 1)
-    answer = 0
+    ch1 = [0] * (n + 1)
+    ch2 = [0] * (n + 1)
+
     for i in range(n):
-        data = list(input().split())
+        data = input().split()
         if len(data) == 2:
             tree[int(data[0])] = int(data[1])
         else:
             tree[int(data[0])] = data[1]
+            ch1[int(data[0])] = int(data[2])
+            ch2[int(data[0])] = int(data[3])
 
     in_order(1)
-    print(answer)
+
+    print(f'#{tc} {tree[1]}')
