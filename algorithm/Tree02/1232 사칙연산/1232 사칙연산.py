@@ -23,7 +23,7 @@ def in_order(node):
         elif tree[node] == '*':
             tree[node] = str(int(tree[ch1[node]]) * int(tree[ch2[node]]))
         elif tree[node] == '/':
-            tree[node] = str(int(tree[ch1[node]]) / int(tree[ch2[node]]))
+            tree[node] = str(int(tree[ch1[node]]) // int(tree[ch2[node]]))
 
 
 t = 10
