@@ -48,6 +48,6 @@ for tc in range(1, t + 1):
     # 시작위치부터 6개씩 dct1 변환
     answer = []
     for i in range((e-5) % 6, e, 6):
-        answer.append(dct2[data_list[i : i+6]])
+        answer.append(dct2[data_list[i: i+6]])
 
     print(f'#{tc}', *answer)
