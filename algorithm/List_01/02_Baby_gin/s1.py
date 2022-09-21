@@ -24,7 +24,7 @@ for tc in range(1, T + 1):
             card[i + 1] -= 1
             card[i + 2] -= 1
             run += 1
-            continue            #run을 구하는 경우
+            continue            # run을 구하는 경우
         i += 1
 
     if run + tri == 2:
