@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin = open("input")
+sys.stdin = open("input.txt")
 
 
 def dfs(num, sum_num):
