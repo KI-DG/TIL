@@ -29,7 +29,7 @@ for tc in range(1, t + 1):
                 number2.append(bit2)
     print(number1, number2)
 
-    
+
     # for i in range(1, 1 << len(num_2)):
     #     for j in range(len(num_2)):
     #         if i & (1 << j):
