@@ -2,24 +2,31 @@ import sys
 
 sys.stdin = open('input')
 
-t = int(input())
+dx = [-1, 1, 0, -1, 1]
+dy = [0, 0, 1, 1, 1]
 
 
-def omok(m):
+def omok(arr):
+    global answer
     for i in range(n):
         for j in range(n):
-            if m[i][j] == 'o':
-                for k in range(8):
+            if arr[i][j] == 'o':
+                for k in range(5):
+                    nx = i + dx[k]
+                    ny = j + dy[k]
+
+                    while 0 <= nx < n and 0 <= ny < n and arr[nx][ny] == 'o':
+                        arr[nx][ny]
+
+    return answer
 
 
-
-    return 'NO'
-
+t = int(input())
 
 for tc in range(1, t + 1):
     n = int(input())
-    arr = [list(input()) for _ in range(n)]
+    board = [list(input()) for _ in range(n)]
+    answer = 'NO'
+    omok(board)
 
-    omok(arr)
-
-    print(f'#{tc}', omok(arr))
+    print(f'#{tc} {answer}')

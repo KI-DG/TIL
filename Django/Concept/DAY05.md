@@ -322,6 +322,7 @@ accounts/update.html
 
 - 사용자가 인증 되었는지 여부를 알 수 있는 방법
 - 모든 User 인스턴스에 대해 항상 True인 읽기 전용 속성
-- 일반적으로 request.userdptj dlthrtjddmf tkdyd 
+- 일반적으로 request.user 에서 이속성을 사용
 - 로그인된 사용자인지 비로그인 사용자인지만 확인
 - 권한과는 관련이 없으며, 사용자가 활성화 상태이거나 유효한 세션을 가지고 있는지도 확인하지 않음
+
