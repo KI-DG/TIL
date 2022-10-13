@@ -1,4 +1,4 @@
-from _collections import deque
+from collections import deque
 import sys
 
 sys.stdin = open("input.txt")
