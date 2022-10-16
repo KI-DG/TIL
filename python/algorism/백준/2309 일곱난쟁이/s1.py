@@ -30,3 +30,4 @@ answer.sort()
 for j in range(7):
     print(answer[j])
 
+# 틀렸습니다!
