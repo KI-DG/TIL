@@ -165,3 +165,96 @@ $ npm run serve
 
 == django에서 url view html
 
+```bash
+npm install 만 하면  node_modules 가 됨
+```
+
+### Data in components
+
+- 동적 웹페이지를 만들고 있음
+- 필요한 컴포넌트들끼리 데이터를 주고받으면 될까?
+  - 데이터의 흐름을 파악하기 힘듦
+  - 개발 속도 저하
+  - 유지보수 난이도 증가
+- 컴포넌트는 부모-자식 관계를 가지고 있으므로, 부모-자식 관계만 데이터를 주고받게 하자!
+  - 데이터의 흐름을 파악하기 용이
+  - 유지보수 하기 쉬워짐
+- 부모 - 자식로의 데이터의 흐름
+  - pass props의 방식
+- 자식 - 부모로의 데이터의 흐름
+  - emit event 방식
+
+#### Pass Props
+
+- 요소의 속성을 사용하여 데이터 전달
+- props는 부모(상위) 컴포넌트의 정보를 전달하기 위한 사용자 지정 특성
+- 자식(하위) 컴포넌트는 props 옵션을 사용하여 수신하는 props를 명시적으로 선언해야 함
+
+- 정적인 데이터를 전달하는 경우 static props라고 명시하기도 함
+- 요소에 속성을 작성하듯이 사용 가능하여, prop-data-name="value"의 형태로 데이터를 전달
+  - 이 때 속성의 키 값은 kebab-case를 사용
+- 보내는 쪽과 받는 쪽의 데이터가 다르다
+- 타입을 쓰는 이유 = 유효성 검사를 위해
+
+- 부모에서 넘겨주는 props
+  -  kebab-case
+- 자식에서 받는 props
+  - camelCase
+- 각 vue 인스턴스는 같은 data 객체를 공유하므로 새로운 data 객체를 반환(return)하여 사용해야 함
+- 한 단계만 내려갈 수 있음
+
+##### 단방향 데이터 
+
+- 모든 props는 부모에서 자식으로 즉 아래로 단방향 바인딩을 형성
+- 부모 속성이 업데이트 되면 자식으로 흐리지만 반대 방향은 아님
+  - 부모 컴포넌트가 업데이트될 때마다 자식 컴포넌트의 모든 prop들이 최신 값으로 새로고침 됨
+- 목적 
+  - 하위 컴포넌트가 실수로 상위 컴포넌트 상태를 변경하여 앱의 데이터 흐름을 이해하기 힘들게 만드는 것을 방지
+- 하위 컴포넌트에서 prop를 변경하려고 시도해서는 안되며 그렇게 하면 Vue는 콘솔에서 경고로 출력함
+
+#### Dynamic props
+
+- 변수를 props로 전달할 수 있음
+- v-bind directive를 사용해 데이터를 동적으로 바인딩
+- 부모 컴포넌트의 데이터가 업데이트 되면 자식 컴포넌트로 전달되는 데이터 또한 업데이트 됨
+
+```vue
+// 문자열 '1'을 전달
+<SomeComponent num-props="1"/>
+// props로 숫자로써의 1을 전달
+<SomeComponent :num-props="1"/
+```
+
+#### Emit Event
+
+- 자식 컴포넌트에서 부모 컴포넌트로 데이터 전달할 때는 이벤트를 발생 시킴
+- 이벤트를 발생시키는게 어떻게 데이터를 전달하는 것일까?
+  - 데이터를 이벤트리스너의 콜백함수의 인자로 전달
+  - 부모 컴포넌트는 해당 이벤트를 통해 데이터를 받음
+- $emit
+  - $emit 메서드를 통해 부모 컴포넌트에 이벤트를 발생
+    - $emit('event-name') 형식으로 사용하며 부모 컴포넌트에 event-name이라는 이벤트를 발생시킴
+    - 마치 사용자가 마우스 클릭을 하면 click 이벤트가 발생하는 것처럼 $emit('event-name') 가 실행되면 event-name 이벤트가 발생
+- Emit Event 흐름
+  - 자식 컴포넌트에 있는 버튼 클릭 이벤트를 청취하여 연결된 핸들러 함수(childToParent) 호출
+  - 호출된 함수에서 $emit을 통해 상위 컴포넌트에 이벤트(child-to-parent)를 발생
+  - 상위 컴포넌트는 이벤트 (child-to-parent)를 청취하여 연결된 핸들러 함수(parentGetEvent) 호출
+  - 호출된 함수에서 console.log(~) 실행
+  - 한 단계만 올라갈 수 있음
+- emit with data 흐름
+  - 자식 컴포넌트에 있는 버튼 클릭 이벤트를 청취하여 연결된 핸들러 함수 (childToParent) 호출
+  - 호출된 함수에서 $emit을 통해 상위 컴포넌트에 이벤트(child-to-parent)를 발생
+    - 이벤트에 데이터(child data)를 전달
+  - 상위 컴포넌트는 이벤트 (child-to-parent)를 청취하여 연결된 핸들러 함수 (parentGetEvent) 호출, 함수의 인자로 전달된 데이터(child data)가 포함
+  - 호출된 함수에서 console.log('~child data~') 실행
+
+#### pass props / emit event 컨벤션
+
+- 아니 그래서 언제는 kebab-case고 언제는 camelCase야?
+  -  ⇒ html 요소에서 사용할 때는 kebab, javascript에서 사용할 때는 camel으로 생각!
+- props
+  - 상위 ⇒ 하위 흐름에서 html 요소로 내려줌 : kebab 
+  - 하위에서 받을 때 javascript에서받음 : camel
+- emit
+  - emit 이벤트를 발생시키면 html 요소가 이벤트를 청취함 : kebab 
+  - 메서드, 변수명 등은 javascript에서 사용함 : camel
