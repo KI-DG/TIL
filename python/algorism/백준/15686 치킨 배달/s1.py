@@ -23,7 +23,7 @@ if m == chicken_count:
         answer = []
         for y in range(chicken_count):
             answer.append(abs(home[x][0] - chicken[y][0]) + abs(home[x][1] - chicken[y][1]))
-        result = min(answer)
+        result += min(answer)
 else:
     answer_result = []
     for x in range(home_count):
@@ -37,4 +37,5 @@ else:
     else:
         for z in range(m):
             pass
+
 print(result)
