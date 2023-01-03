@@ -23,3 +23,17 @@ for i in range(n - 1):
 
     answer.append(result)
 print(max(answer))
+
+'''
+3
+1 5
+3 15
+1 5
+
+4
+2 5
+4 15
+3 10
+1 5
+실패...
+'''

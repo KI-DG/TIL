@@ -31,6 +31,7 @@ else:
         for y in range(chicken_count):
             answer.append(abs(home[x][0] - chicken[y][0]) + abs(home[x][1] - chicken[y][1]))
         answer_result.append(sum(answer))
+        print(answer)
     answer_result.sort()
     if m == 1:
         result = min(answer_result)
